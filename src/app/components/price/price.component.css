@@ -1,0 +1,122 @@
+/* .container
+{
+    height:100vh;
+    width:100vw;
+} */
+
+.body
+{
+  position: relative;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+h1{
+    color:#1B1A4F;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing:1.2px;
+}
+
+
+  .form-style
+  {
+      width:65%;
+      padding:10px 20px;
+      margin-top: 50px;
+  }
+
+  .container
+  {
+      display:flex;
+  }
+
+  .container .svg-container{
+    width:59%;
+    right:0;
+    top:40px;
+    position: relative;;
+  }
+
+
+  .example-radio-button{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mat-radio-div,.mat-check-div,.input-div
+  {
+      display: flex;
+  }
+
+  .radio-button , .check-button , mat-form-field
+  {
+    margin-left: 15px;
+  }
+  .check-div
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+mat-form-field
+{
+    margin-top:-25px
+}
+td:first-child
+{
+    text-align: right;
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background,.mat-checkbox-frame
+::ng-deep .mat-checkbox-indeterminate .mat-checkbox-background {
+  background-color: #FD6643 !important;
+}
+
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: #FD6643 ;
+}
+::ng-deep .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #FD6643 ;
+}
+::ng-deep .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+  background-color: #FD6643 ;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: #FD6643 !important;
+}
+
+::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+  background-color: #FD6643 !important;
+}
+
+
+form button
+{
+  color:white;
+  background-color: #2a2a55;
+  outline:none;
+  border:none;
+  padding: 10px 31px;
+  border-radius: 25px;
+  position: relative;
+  left:35%;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+form h2{
+  color:#1e1e58;
+  font-size:27px;
+  margin-top: 20px;
+  margin-left:10px;
+  text-align: center;
+}
+
+form td{
+  font-size: 18px;
+}

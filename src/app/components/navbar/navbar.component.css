@@ -1,0 +1,22 @@
+li a,a.navbar-brand{
+    color:white;
+}
+ul.items li
+{
+    margin-left:20px;
+    font-size:17px;
+    font-weight: normal;
+}
+
+ul li a:hover,ul li a:active
+{
+    text-decoration:underline;
+}
+.navbar-change-on-scroll
+{
+    background-color: white;
+}
+
+.navbar-change-on-scroll ul li a,.navbar-change-on-scroll a.navbar-brand{
+    color:#1B1A4F
+}

@@ -1,0 +1,58 @@
+.main::before
+{
+    background-color: #1B1A4F;
+    height:100%;
+    width:100%;
+    content: '';
+    position: absolute;
+    top:0;
+    z-index:-1;
+    left: 0;
+}
+
+.content{
+ position: absolute;
+ top:10%;
+ left:2%;
+ width:85vw;
+}
+
+.content img{
+    /* width:90vw; */
+    opacity:0.6;
+    z-index:-1;
+    width: 61%;
+    height:100%
+    
+}
+
+.content .text{
+   position: absolute;
+   left:59%;
+   width:50%;
+   top:8%;
+}
+
+.content .text p{
+    color:white;
+    line-height: 1.2;
+    font-size:75px;
+    letter-spacing: 4px;
+    font-weight:340;
+}
+
+.content .text button
+{
+    color:#232261;
+    margin-top:10px;
+    background-color: rgb(243, 231, 231);
+    padding:8px 50px;
+    font-size:25px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    left: 20%;
+    position: relative;;
+    
+}
+
