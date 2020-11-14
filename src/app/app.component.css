@@ -5,3 +5,12 @@ app-price
     width:100vw;
     position: absolute;
 }
+
+@media screen and (max-width:768px)
+{
+    app-price
+    {
+        top:700px;
+    }
+    
+}

@@ -120,3 +120,49 @@ form h2{
 form td{
   font-size: 18px;
 }
+
+.label-style
+{
+  display: flex;flex-direction: column;
+}
+
+.label-break
+{
+  display: block;
+}
+
+@media screen and (max-width:768px)
+{
+   .svg-container
+   {
+     display: none;
+   }
+
+   .container
+   {
+     display: block;
+   }
+
+   .form-style
+   {
+       width:100%;
+       padding:10px 20px;
+       margin-top: 50px;
+   }
+
+   .label-style
+   {
+     display: block;
+   }
+
+   h1{
+    margin:20px 0;
+}
+
+
+  .form-style
+  {
+      padding:20px 20px;
+      margin-top: 20px;
+  }
+}

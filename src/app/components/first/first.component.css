@@ -56,3 +56,29 @@
     
 }
 
+
+
+@media screen and (max-width:768px)
+{
+    .svg-box
+    {
+        display: none;
+    }
+    .content .text
+    {
+        margin-top: 40px;
+        width:100%;
+        text-align: center;
+        left:28px;
+       
+    }
+    .content .text p
+    {
+        font-size:60px;
+    }
+
+    .content .text button
+    {
+        left:0
+    }
+}
